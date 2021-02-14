@@ -6,9 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <title>Photos</title>
 </head>
-<body>
+<body class="h-100 color pb-5">
+  <nav class="navbar navbar-light navbar-expand-xl cluckin bg-warning pe-5 sticky-top border-bottom border-danger">
+    <div class="container-fluid ">
+      <a class="navbar-brand"><h1 class="ms-5 mb-0 fst-italic"><img src="../images/Logo.png" alt="Logo" class="me-4">Cluckin' Bell</h1></a>
+      <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav shadow-sm">
+          <li class="nav-item bg-danger rounded-start px-3 ms-auto w-25"><a class="nav-link text-white text-center" href="../index.html">Accueil</a></li>
+          <li class="nav-item bg-danger px-3 ms-auto w-25"><a class="nav-link text-white text-center" href="carte.html">Carte</a></li>
+          <li class="nav-item bg-danger px-3 ms-auto w-25"><a class="nav-link text-white text-center" href="#">Photos</a></li>
+          <li class="nav-item bg-danger px-3 ms-auto w-25"><a class="nav-link text-white text-center" href="restaurants.html">Restaurants</a></li>
+          <li class="nav-item bg-danger rounded-end px-3 ms-auto w-25"><a class="nav-link text-white text-center" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="my-5 pb-5">
+    <div class="container w-75 bg-danger py-5 rounded">
+      <div id="carouselExampleIndicators" class="carousel slide w-75 mx-auto" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-inner shadow rounded-3 img-thumbnail">
+          <div class="carousel-item active">
+            <img src="../images/img-1.png" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/img-2.png" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/img-3.png" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/img-4.png" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/img-5.png" class="w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+      <div class="btn-toolbar tool justify-content-center mt-3" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group shadow">
+          <button type="button" class="btn btn-warning text-light" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0">1</button>
+          <button type="button" class="btn btn-warning text-light" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">2</button>
+          <button type="button" class="btn btn-warning text-light" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">3</button>
+          <button type="button" class="btn btn-warning text-light" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3">4</button>
+          <button type="button" class="btn btn-warning text-light" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4">5</button>
+      </div>
+    </div>
+    </div>
+  </section>
+  <footer class="cluckin bg-warning mt-5 p-3 border-top text-center text-danger footer fst-italic border-danger">
+    Cluckin' Bell &#9400 - 2004 / 2013
+  </footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     
 </body>
 </html>

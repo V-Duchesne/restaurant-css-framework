@@ -3,3 +3,46 @@
     margin: 0;
     padding: 0;
 }
+html {
+    position: relative;
+    min-height: 100%;
+  }
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+.jumbotron{
+    background-image:url("images/jumboBack.png");
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(245, 37, 55, 50%);
+    height: 50vh;
+    color:navy;
+    overflow:auto;
+    text-shadow: 2px 0 0 rgb(253, 219, 26), -2px 0 0 rgb(253, 219, 26), 0 2px 0 rgb(253, 219, 26), 0 -2px 0 rgb(253, 219, 26), 1px 1px rgb(253, 219, 26), -1px -1px 0 rgb(253, 219, 26), 1px -1px 0 rgb(253, 219, 26), -1px 1px 0 rgb(253, 219, 26);
+
+}
+.input-group>.form-control, .input-group>.form-select {
+  width: 100%;
+}
+.submit i{
+  display: none;
+}
+.submit:hover > i{
+  display:inline;
+}
+.submit:hover{
+  background-color:navy;
+  transition:0.5s;
+}
+.cluckin{
+  font-family: 'Bungee', cursive;;
+}
+h1{
+  color:navy;
+}
+.color{
+  background-color: navy;
+}
